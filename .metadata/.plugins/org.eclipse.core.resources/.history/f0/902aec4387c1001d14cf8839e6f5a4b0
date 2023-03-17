@@ -1,0 +1,17 @@
+server.port=9092
+#SERVICEID
+spring.application.name=CART-SERVICE
+
+#INSTANCEID
+eureka.instance.instance-id=${spring.application.name}:${random.value}
+
+#Eureka Location
+
+eureka.client.service-url.deafaultZone=http://localhost:8761/eureka
+
+#Reister and fetch
+
+#eureka.client.register-with-eureka=true
+#eureka.client.fetch-registry=true
+
+

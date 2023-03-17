@@ -1,0 +1,11 @@
+server.port=1100
+
+#serviceId
+spring.application.name=LOGIN-SERVICE
+
+#INSTANCEID
+eureka.instance.instance-id=${spring.application.name}:${random}
+
+#Eureka Location
+
+eureka.client.service-url.deafaultZone=http://localhost:8761/eureka
